@@ -150,7 +150,7 @@ section{
 }
 
 #Experiences{
-    background: #42002E;
+    background: linear-gradient(#42002E,#5E0009);
     text-align: center;
 
     #titre{
