@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="Accueil">
+        <h1>Kyo Vannier</h1>
+    </section>
+
+    <section id="aPropos">
+        <h1>A Propos</h1>
+        <div id="presentation">
+            <img src="assets/photo.jpg">
+            <div>
+            <p>Je m’appelle Kyo, j’ai 18 ans et je suis passionné de nombreuses choses dont l’informatique et le <a href="sites projets/page cosplay/cosplay.html" id="cosplay">cosplay</a> qui prennent une bonne partie de ma vie. Je suis curieux de nature, j’adore découvrir, apprendre et rencontrer de nouvelles personnes. Je communique notamment régulièrement en anglais avec de nombreuses personnes dans le monde entier. J’aime également créer, d’où ma passion pour le cosplay qui nécessite de nombreux domaines artistique tels que la couture, la peinture, le théâtre et surtout beaucoup d’imagination pour réussir a être fidèle aux personnages. C’est une passion qui me permet de m’améliorer, d’apprendre a chercher, rater et recommencer. L’informatique lui aussi créer, et c’est encore mieux en groupe, les projets peuvent être plus grands, chaque membre peut en aider d’autres et le groupe évolue ensemble.</p>
+            <button><a href="download/CV-KyoVannier.pdf" download="CV-KyoVannier">mon CV</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="container swiper">
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <div class="carte">
+                            <h2>Jeux Quadtree</h2>
+                            <h3>2024</h3>
+                            <video controls class="card-image">
+                                <source src="assets/Capture vidéo du 2025-04-29 08-16-31.webm">
+                            </video>
+                            <div class="detail">
+                                <h2>Golang</h2>
+                                <p>Ajout de certaines fonctions pemettant le fonctionnement du jeu à
+                                    partir d’un programme de base et ajout d’extensions</p>
+                            </div>
+                        </div>
+                    </li> 
+                    <li class="card-item swiper-slide">
+                        <div class="carte">
+                            <h2>Jeux roblox (pour apprendre le lua)</h2>
+                            <h3>été 2024</h3>
+                            <video controls class="card-image">
+                                <source src="assets/videoRoblox.mp4">
+                            </video>
+                            <div class="detail">
+                                <h2>Lua</h2>
+                                <p>Programmation de quelque méchanique de jeux basique: zone de spawn, équiper/déséquiper pioche, casser roche(gagner argent), acheter nouvelle pioche</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <div class="carte">
+                            <h2>Générateur de stats D&D</h2>
+                            <h3>été 2023</h3>
+                            <img src="assets/dé.png" class="card-image">
+                            <div class="detail">
+                                <h2>Programation Orienté objet python</h2>
+                                <p>Génère les stats d'un personnage selon la classe et/ou la race choisi ou alors aléatoirement</p>
+                            </div>
+                        </div>
+                    </li> 
+                    <li class="card-item swiper-slide">
+                        <a href="sites projets/site gamzee/site.html">
+                            <div class="carte">
+                                <h2>site Gamzee</h2>
+                                <h3>2022</h3>
+                                <img src="assets/siteGamzee.PNG" class="card-image">
+                                <div class="detail">
+                                    <h2>HTML / CSS</h2>
+                                    <p>site que j'ai fait pour m'entrainer et tester des choses : le klaxon joue du son quand on clique dessus, liens cachés, positionnement des éléments</p>
+                                </div>
+                                <button class="card-button material-symbols-outlined">arrow_forward</button>
+                            </div>
+                        </a>
+                    </li> 
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="Experiences">
+        <h2 id="titre">Expériences professionnelles (uniquement scholaire lors de mon bac général)</h2>
+        <div class="container">
+            <div class="card-wrapper">
+                <ul class="card-list ">
+                    <li class="card-item ">
+                        <div class="carte">
+                            <h2>Ecodélégué</h2>
+                            <h3>2021-2024</h3>
+                            <img src="assets/e3d.jpg" class="card-image">
+                            <div class="detail">
+                                <h2>Ma permis d'apprendre a faire des projets de a à z en communiquant avec une équipe de taille moyenne</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item">
+                        <div class="carte">
+                            <h2>Vice Trésorier MDL</h2>
+                            <h3>2023-2024</h3>
+                            <img src="assets/tresorier.png" class="card-image">
+                            <div class="detail">
+                                <h2>A améliorer mes compétences de gestion puisque j'ai reçu une formation pour gérer la communication et l'aspect financier</h2>
+                            </div>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

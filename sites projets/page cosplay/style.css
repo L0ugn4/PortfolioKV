@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/hello-bonia-serif');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hello Bonia Serif', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+  }
+
+section{
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: #f3f7fe;
+    padding: 10px 3%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h1{
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.hero h1:hover{
+    -webkit-text-fill-color: black;
+    transform: translateY(-10px);
+}
+
+.img-box{
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    background-image: url(pictures/fond.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s;
+}
+
+#oka{
+    top: 0;
+    left: 0;
+}
+
+.hero h1:nth-child(1):hover ~ #oka{
+    background-image: url(pictures/ken.jpg);
+}
+
+#soul{
+    top: 0;
+}
+
+.hero h1:nth-child(2):hover ~ #soul{
+    background-image: url(pictures/soul.jpg);
+}
+
+#faolan{
+    top: 0;
+    right: 0;
+}
+
+.hero h1:nth-child(3):hover ~ #faolan{
+    background-image: url(pictures/incube.jpg);
+}
+
+
+#cos{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #texte{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 140%;
+        width: 50%;
+        height: auto;
+
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
+    video{
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+body{
+	background-color: #bc9fdd;
+}
+
+*{
+	margin: 0;
+}
+
+.titre{
+	text-align: center;
+	background-color: #8d66ba;
+}
+
+.klaxon{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	image-orientation: revert;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:black; 
+     text-decoration:none; 
+     cursor:default;  
+}
